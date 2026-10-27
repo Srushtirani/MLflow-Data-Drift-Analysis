@@ -1,0 +1,15 @@
+{
+    "dataset": "Breast Cancer Wisconsin Diagnostic",
+    "records": 569,
+    "features_analyzed": 30,
+    "drift_type": "Data Drift",
+    "detection_method": "Two-sample Kolmogorov-Smirnov test",
+    "significance_threshold": 0.05,
+    "simulated_drift": true,
+    "features_with_drift": 2,
+    "any_drift_detected": true,
+    "modified_features": {
+        "mean radius": 5.0,
+        "mean texture": 5.0
+    }
+}
